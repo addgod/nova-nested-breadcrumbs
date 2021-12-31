@@ -11,7 +11,7 @@ Breadcrumbs for Laravel Nova
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require chris-ware/nova-breadcrumbs
+composer require addgod/nova-nested-breadcrumbs
 ```
 
 Next, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
