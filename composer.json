@@ -6,12 +6,6 @@
         "nova"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.org/packages/addgod/nova-nested-breadcrumbs"
-        }
-    ],
     "require": {
         "php": ">=7.3.0",
         "laravel/nova": ">=3.0"
