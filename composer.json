@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://github.com/addgod/nova-nested-breadcrumbs"
+            "url": "https://packagist.org/packages/addgod/nova-nested-breadcrumbs"
         }
     ],
     "require": {

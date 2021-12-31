@@ -1,6 +1,6 @@
 <?php
 
-use Addgod\NestedBreadcrumbs\Http\Controllers\NestedBreadcrumbsController;
+use Addgod\NestedBreadcrumbs\Http\Controllers\BreadcrumbsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/', NestedBreadcrumbsController::class);
+Route::post('/', BreadcrumbsController::class);
