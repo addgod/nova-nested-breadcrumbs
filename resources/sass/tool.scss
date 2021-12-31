@@ -1,0 +1,54 @@
+// Nova Tool CSS
+
+.breadcrumbs {
+    padding: 12px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--white-50);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+
+    .breadcrumbs__item {
+        display: inline-block;
+        position: relative;
+
+        a,
+        span {
+            margin-right: 12px;
+            margin-left: 8px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600 !important;
+
+            &:after {
+                content: "/";
+                line-height: 1;
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                color: var(--black);
+            }
+
+        }
+        &:first-of-type {
+            a {
+                margin-left: 0;
+            }
+        }
+
+        &:last-of-type,
+        span {
+            color: var(--black);
+            cursor: default;
+            &:after {
+                content: '';
+            }
+        }
+    }
+}

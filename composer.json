@@ -1,0 +1,36 @@
+{
+    "name": "addgod/nova-nested-breadcrumbs",
+    "description": "Fully nested bradbcrumbs for laravel nova.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/addgod/nova-nested-breadcrumbs"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "laravel/nova": ">=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Addgod\\NestedBreadcrumbs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Addgod\\NestedBreadcrumbs\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
