@@ -6,9 +6,15 @@
         "nova"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
     "require": {
-        "php": ">=7.3.0",
-        "laravel/nova": ">=3.0"
+        "php": "^7.3|^8.0",
+        "laravel/nova": ">=3"
     },
     "autoload": {
         "psr-4": {

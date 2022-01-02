@@ -16,9 +16,9 @@ class NestedBreadcrumbs extends Tool
      */
     public function boot()
     {
-        Nova::script('nova-breadcrumbs', __DIR__ . '/../dist/js/tool.js');
+        Nova::script('nova-nested-breadcrumbs', __DIR__ . '/../dist/js/tool.js');
         if ($this->loadStyles) {
-            Nova::style('nova-breadcrumbs', __DIR__ . '/../dist/css/tool.css');
+            Nova::style('nova-nested-breadcrumbs', __DIR__ . '/../dist/css/tool.css');
         }
     }
 

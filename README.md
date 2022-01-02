@@ -29,6 +29,13 @@ public function tools()
 }
 ```
 
+If you need to extend this packages middleware it is possible to do so from the config. Just publish the config as so.
+
+```bash
+php artisan vendor:publish --provider="Addgod\NestedBreadcrumbs\ToolServiceProvider"
+```
+
+
 Finally, add the Breadcrumbs trait to your App\Nova\Resource class.
 
 ```php

@@ -29,6 +29,7 @@ trait Breadcrumbs
      */
     public function breadcrumbParent()
     {
+        return null;
     }
 
     /**
