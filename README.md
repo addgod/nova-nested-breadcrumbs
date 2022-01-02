@@ -46,6 +46,20 @@ abstract class Resource extends NovaResource
     use Breadcrumbs;
 ```
 
+And to define the parent that should be shown add the following function to any resource.
+
+```php
+/**
+ * Get the parent to be displayed in the breadcrumbs.
+ *
+ * @return \Illuminate\Database\Eloquent\Model|null
+ */
+public function breadcrumbParent()
+{
+    return $this->model()->parentModel;
+}
+```
+
 ## Customisation
 
 You can disable the bundled styles and load your own by adding the following method to the call:
