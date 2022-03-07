@@ -2,7 +2,7 @@
 
 namespace Addgod\NestedBreadcrumbs\Http\Controllers;
 
-use App\Nova\Resource;
+use Laravel\Nova\Resource;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Collection;
